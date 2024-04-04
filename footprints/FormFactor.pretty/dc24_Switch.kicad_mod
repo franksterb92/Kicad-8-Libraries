@@ -1,0 +1,233 @@
+(footprint "dc24_Switch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.03 0.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5e95fc71-97df-4dfe-832f-155f7f3fdd70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "dc24_Switch"
+		(at 0.03 1.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fed440d-1bb6-4dc5-9e76-82535ad983d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.03 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f641a35-fa1d-410b-a3eb-38ae399b0bad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.03 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b32f02d-1a37-4448-ae61-ad553d1f18f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.03 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09d9cedd-f321-4997-a067-7b6701bf4c75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -18 -5.5)
+		(end -18 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "837d5779-bea8-4c45-84d9-cf03e1caf5c1")
+	)
+	(fp_line
+		(start -18 5.5)
+		(end 19.2 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8bcaaf5-c2ba-4b44-9758-3709098e4931")
+	)
+	(fp_line
+		(start -15 -5.5)
+		(end -18 -5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a86033f-9d79-4be8-a61d-365795e3063c")
+	)
+	(fp_line
+		(start -15 -5.5)
+		(end -9.5 -5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "64a52aaa-93a5-4d06-a5bf-2320b763c196")
+	)
+	(fp_line
+		(start -9.5 -5.5)
+		(end -9.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "976187a3-5a88-40bc-b006-38d25a5ca2ec")
+	)
+	(fp_line
+		(start 10.7 -5.5)
+		(end 10.7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "751fa595-8540-4c02-b65c-24f8dcf1e6d3")
+	)
+	(fp_line
+		(start 10.7 0)
+		(end -9.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4681d977-04e1-4b75-a7c7-9c0bc3735f30")
+	)
+	(fp_line
+		(start 16.2 -5.5)
+		(end 10.7 -5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e114e9b-485d-401b-91ae-666735257151")
+	)
+	(fp_line
+		(start 16.2 -5.5)
+		(end 19.2 -5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "528d73cc-cf41-4420-9fb1-785a02896e90")
+	)
+	(fp_line
+		(start 19.2 -5.5)
+		(end 19.2 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dca8e78c-ca21-4544-8cca-2aee8ad5aac2")
+	)
+	(pad "" thru_hole circle
+		(at -15 0)
+		(size 4.4 4.4)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e97cd84-0f5b-4beb-ba24-7e86cb9581e4")
+	)
+	(pad "" thru_hole circle
+		(at 16.2 0)
+		(size 4.4 4.4)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ab04001-d25c-4f27-898f-64634259b0c0")
+	)
+	(pad "1" thru_hole rect
+		(at 2.94 -3.8 180)
+		(size 1.905 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b3cb9be-aa1c-49fc-85cf-bb161655e143")
+	)
+	(pad "2" thru_hole circle
+		(at 0.4 -3.8 180)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2dde210-2cac-4e72-82fa-dfcf237c338a")
+	)
+	(pad "3" thru_hole circle
+		(at -2.14 -3.8 180)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "740a41fd-eead-49d3-a609-13e7634ef337")
+	)
+	(model "C:/Users/Frank/Documents/KiCad/8.0/3dmodels/Formfactor/switch heatsink.step"
+		(offset
+			(xyz 15.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "C:/Users/Frank/Documents/KiCad/8.0/3dmodels/Formfactor/User Library-Transistors TO-220F.step"
+		(offset
+			(xyz 0.5 1 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
